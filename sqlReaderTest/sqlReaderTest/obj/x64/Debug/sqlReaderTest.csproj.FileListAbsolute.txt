@@ -1,0 +1,6 @@
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\bin\x64\Debug\sqlReaderTest.exe
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\bin\x64\Debug\sqlReaderTest.pdb
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\x64\Debug\sqlReaderTest.MainForm.resources
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\x64\Debug\sqlReaderTest.csproj.GenerateResource.Cache
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\x64\Debug\sqlReaderTest.exe
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\x64\Debug\sqlReaderTest.pdb

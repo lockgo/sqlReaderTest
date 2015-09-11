@@ -16,3 +16,10 @@ J:\DESKTOP 7-26-2015\Programs\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTes
 J:\DESKTOP 7-26-2015\Programs\sqlReaderTest\sqlReaderTest\bin\Debug\sqlReaderTest.exe
 J:\DESKTOP 7-26-2015\Programs\sqlReaderTest\sqlReaderTest\bin\Debug\sqlReaderTest.pdb
 J:\DESKTOP 7-26-2015\Programs\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.pdb
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\bin\Debug\sqlReaderTest.exe
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\bin\Debug\sqlReaderTest.pdb
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.MainForm.resources
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.csproj.GenerateResource.Cache
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.exe
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.pdb
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.csprojResolveAssemblyReference.cache

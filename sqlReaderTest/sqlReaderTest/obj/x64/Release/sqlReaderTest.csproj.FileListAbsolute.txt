@@ -1,0 +1,4 @@
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\bin\x64\Release\sqlReaderTest.exe
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\x64\Release\sqlReaderTest.MainForm.resources
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\x64\Release\sqlReaderTest.csproj.GenerateResource.Cache
+C:\Users\Netgaro\Documents\sqlReaderTest\sqlReaderTest\sqlReaderTest\obj\x64\Release\sqlReaderTest.exe

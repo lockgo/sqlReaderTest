@@ -15,6 +15,12 @@ using System.Windows.Forms;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
+
+using System.Collections.Generic;
+using System.Linq;
+
+using System.IO;
+
 namespace sqlReaderTest
 {
     /// <summary>
@@ -39,6 +45,7 @@ namespace sqlReaderTest
             idTextBox1.Text = "id";
             dataTextBox1.Text = "mensagem_excecao";
             dataTextBox2.Text = "stack_trace";
+            DirectorytextBox1.Text = "C:\\testa";
 
 
             //this.richTextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(CheckEnter);
@@ -170,31 +177,67 @@ namespace sqlReaderTest
             info.RedirectStandardInput = true;
             info.UseShellExecute = false;
 
+            string commandDirectory = "cd\\";
+            string fileNameLog = "netStatLog" + DateTime.Now.ToString("d-m-y-_h-mm-ss-tt") + ".txt";
+            string CMDcommand = ("dir > " + fileNameLog);
+
             p.StartInfo = info;
             p.Start();
             using (System.IO.StreamWriter sw = p.StandardInput)
-            {
+            {//Only works if ran through command prompt for some reason.
                 if (sw.BaseStream.CanWrite)
                 {
-                    string commandDirectory = "cd Desktop\\classword";
+                    
                     //sw.WriteLine("j:");
                     //sw.WriteLine("cd CodeSupossitory");
                     sw.WriteLine(commandDirectory);
-                    string fileNameLog = "netStatLog" + DateTime.Now.ToString("d-m-y-_h-mm-ss-tt") + ".txt";
+                    sw.WriteLine("cd testa");
+                    
                     //string fileNameLog = "netStatLog" + DateTime.Now.ToString("h-mm-ss-tt")+".txt";
                     //sw.WriteLine(fileNameLog);
-                    string CMDcommand = ("dir > " + fileNameLog);
-                    //sw.WriteLine("netstat > " + fileNameLog);
-                    sw.WriteLine("netstat > " + fileNameLog);
-                    idTextBox1.Text = commandDirectory;
-                    dataTextBox1.Text = CMDcommand;
-                    dataTextBox2.Text = fileNameLog;
+
+                    //sw.WriteLine(dataTextBox1.Text + " > " + dataTextBox1.Text + "_" + fileNameLog);
+                    //sw.WriteLine("MD" + " newTestDirA");
+                    sw.WriteLine("netstat -b > " + fileNameLog);
+                    richTextBox1.Text = commandDirectory + " \n" + CMDcommand + " \n" + fileNameLog;
+                    //Console.WriteLine();
                     
                     //sw.WriteLine("netstat -b");
 
                 }
             }
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            {
+                // Get the directories currently on the C drive.
+                //DirectoryInfo[] cDirs = new DirectoryInfo(@"c:\").GetDirectories();
+
+                DirectoryInfo[] cDirs = new DirectoryInfo(DirectorytextBox1.Text).GetDirectories();
+
+                // Write each directory name to a file. 
+                using (StreamWriter sw = new StreamWriter(DirectorytextBox1.Text + "\\CDriveDirs.txt"))
+                {
+                    
+                    foreach (DirectoryInfo dir in cDirs)
+                    {
+                        sw.WriteLine(dir.Name);
+
+                    }
+                }
+
+                // Read and show each line from the file. 
+                string line = "";
+                using (StreamReader sr = new StreamReader(DirectorytextBox1.Text + "\\CDriveDirs.txt"))
+                {
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        Console.WriteLine(line);
+                    }
+                }
+            }
         }
 
 

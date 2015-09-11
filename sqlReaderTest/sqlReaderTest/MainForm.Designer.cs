@@ -44,6 +44,9 @@ namespace sqlReaderTest
             this.dataTextBox2 = new System.Windows.Forms.TextBox();
             this.idTextBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.DirectorytextBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -101,19 +104,48 @@ namespace sqlReaderTest
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(784, 368);
+            this.button2.Location = new System.Drawing.Point(628, 364);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 9;
-            this.button2.Text = "LogFile";
+            this.button2.Text = "LogFileTest";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(1046, 364);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(126, 23);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "SecondaryLogFile";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // DirectorytextBox1
+            // 
+            this.DirectorytextBox1.Location = new System.Drawing.Point(1046, 338);
+            this.DirectorytextBox1.Name = "DirectorytextBox1";
+            this.DirectorytextBox1.Size = new System.Drawing.Size(126, 20);
+            this.DirectorytextBox1.TabIndex = 11;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(1043, 322);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(112, 13);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Directory For Log Files";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1184, 399);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.DirectorytextBox1);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.idTextBox1);
             this.Controls.Add(this.dataTextBox2);
@@ -137,5 +169,8 @@ namespace sqlReaderTest
 		private System.Windows.Forms.TextBox connectionTextBox;
 		private System.Windows.Forms.RichTextBox richTextBox1;
 		private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox DirectorytextBox1;
+        private System.Windows.Forms.Label label1;
 	}
 }

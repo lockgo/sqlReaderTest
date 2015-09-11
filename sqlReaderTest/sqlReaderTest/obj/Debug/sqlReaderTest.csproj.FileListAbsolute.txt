@@ -1,0 +1,18 @@
+C:\Users\ND_support1\Documents\SharpDevelop Projects\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.csprojResolveAssemblyReference.cache
+C:\Users\ND_support1\Documents\SharpDevelop Projects\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.MainForm.resources
+C:\Users\ND_support1\Documents\SharpDevelop Projects\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.csproj.GenerateResource.Cache
+C:\Users\ND_support1\Documents\SharpDevelop Projects\sqlReaderTest\sqlReaderTest\bin\Debug\sqlReaderTest.exe
+C:\Users\ND_support1\Documents\SharpDevelop Projects\sqlReaderTest\sqlReaderTest\bin\Debug\sqlReaderTest.pdb
+C:\Users\ND_support1\Documents\SharpDevelop Projects\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.exe
+C:\Users\ND_support1\Documents\SharpDevelop Projects\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.pdb
+C:\Users\Lapgar\Desktop\Programs\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.exe
+C:\Users\Lapgar\Desktop\Programs\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.csprojResolveAssemblyReference.cache
+C:\Users\Lapgar\Desktop\Programs\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.MainForm.resources
+C:\Users\Lapgar\Desktop\Programs\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.csproj.GenerateResource.Cache
+J:\DESKTOP 7-26-2015\Programs\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.exe
+J:\DESKTOP 7-26-2015\Programs\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.csprojResolveAssemblyReference.cache
+J:\DESKTOP 7-26-2015\Programs\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.MainForm.resources
+J:\DESKTOP 7-26-2015\Programs\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.csproj.GenerateResource.Cache
+J:\DESKTOP 7-26-2015\Programs\sqlReaderTest\sqlReaderTest\bin\Debug\sqlReaderTest.exe
+J:\DESKTOP 7-26-2015\Programs\sqlReaderTest\sqlReaderTest\bin\Debug\sqlReaderTest.pdb
+J:\DESKTOP 7-26-2015\Programs\sqlReaderTest\sqlReaderTest\obj\Debug\sqlReaderTest.pdb
